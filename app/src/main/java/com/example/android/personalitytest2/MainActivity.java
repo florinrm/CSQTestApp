@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_13, R.id.text_choice_14, R.id.text_choice_15);
                 ok = false;
                 if (box1_1.isChecked()) {
-                    sum1 += 1;
+                    sum1 += 5;
                     ok = true;
                     Log.i("Check1", "1");
                 }
                 if (box1_2.isChecked() && !ok) {
-                    sum1 += 2;
+                    sum1 += 4;
                     Log.i("Check1", "2");
                     ok = true;
                 }
@@ -49,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box1_4.isChecked() && !ok) {
-                    sum1 += 4;
+                    sum1 += 2;
                     Log.i("Check1", "4");
                     ok = true;
                 }
                 if (box1_5.isChecked() && !ok) {
-                    sum1 += 5;
+                    sum1 += 1;
                     Log.i("Check1", "5");
                     ok = true;
                 }
@@ -68,11 +69,11 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_23, R.id.text_choice_24, R.id.text_choice_25);
                 ok = false;
                 if (box2_1.isChecked()) {
-                    sum1 += 1;
+                    sum1 += 5;
                     ok = true;
                 }
                 if (box2_2.isChecked() && !ok) {
-                    sum1 += 2;
+                    sum1 += 4;
                     ok = true;
                 }
                 if (box2_3.isChecked() && !ok) {
@@ -80,15 +81,15 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box2_4.isChecked() && !ok) {
-                    sum1 += 4;
+                    sum1 += 2;
                     ok = true;
                 }
                 if (box2_5.isChecked() && !ok) {
-                    sum1 += 5;
+                    sum1 += 1;
                     ok = true;
                 }
                 Log.i("Sum1", "" + sum1);
-                avg1 = sum1 / 2;
+                avg1 = sum1;
 
                 // a doua categorie de intrebari
                 double sum2 = 0;
@@ -2496,12 +2497,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_733, R.id.text_choice_734, R.id.text_choice_735);
                 ok = false;
                 if (box73_1.isChecked()) {
-                    sum7 += 1;
+                    sum7 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box73_2.isChecked() && !ok) {
-                    sum7 += 2;
+                    sum7 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2511,12 +2512,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box73_4.isChecked() && !ok) {
-                    sum7 += 4;
+                    sum7 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box73_5.isChecked() && !ok) {
-                    sum7 += 5;
+                    sum7 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
@@ -2532,12 +2533,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_743, R.id.text_choice_744, R.id.text_choice_745);
                 ok = false;
                 if (box74_1.isChecked()) {
-                    sum8 += 1;
+                    sum8 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box74_2.isChecked() && !ok) {
-                    sum8 += 2;
+                    sum8 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2547,12 +2548,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box74_4.isChecked() && !ok) {
-                    sum8 += 4;
+                    sum8 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box74_5.isChecked() && !ok) {
-                    sum8 += 5;
+                    sum8 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
@@ -2565,12 +2566,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_753, R.id.text_choice_754, R.id.text_choice_755);
                 ok = false;
                 if (box75_1.isChecked()) {
-                    sum8 += 1;
+                    sum8 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box75_2.isChecked() && !ok) {
-                    sum8 += 2;
+                    sum8 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2580,12 +2581,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box75_4.isChecked() && !ok) {
-                    sum8 += 4;
+                    sum8 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box75_5.isChecked() && !ok) {
-                    sum8 += 5;
+                    sum8 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
@@ -2598,12 +2599,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_763, R.id.text_choice_764, R.id.text_choice_765);
                 ok = false;
                 if (box76_1.isChecked()) {
-                    sum8 += 1;
+                    sum8 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box76_2.isChecked() && !ok) {
-                    sum8 += 2;
+                    sum8 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2613,12 +2614,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box76_4.isChecked() && !ok) {
-                    sum8 += 4;
+                    sum8 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box76_5.isChecked() && !ok) {
-                    sum8 += 5;
+                    sum8 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
@@ -2631,12 +2632,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_773, R.id.text_choice_774, R.id.text_choice_775);
                 ok = false;
                 if (box77_1.isChecked()) {
-                    sum8 += 1;
+                    sum8 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box77_2.isChecked() && !ok) {
-                    sum8 += 2;
+                    sum8 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2646,12 +2647,12 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box77_4.isChecked() && !ok) {
-                    sum8 += 4;
+                    sum8 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box77_5.isChecked() && !ok) {
-                    sum8 += 5;
+                    sum8 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
@@ -2664,12 +2665,12 @@ public class MainActivity extends AppCompatActivity {
                         R.id.text_choice_783, R.id.text_choice_784, R.id.text_choice_785);
                 ok = false;
                 if (box78_1.isChecked()) {
-                    sum8 += 1;
+                    sum8 += 5;
                     Log.i("Check3", "1");
                     ok = true;
                 }
                 if (box78_2.isChecked() && !ok) {
-                    sum8 += 2;
+                    sum8 += 4;
                     Log.i("Check3", "2");
                     ok = true;
                 }
@@ -2679,25 +2680,27 @@ public class MainActivity extends AppCompatActivity {
                     ok = true;
                 }
                 if (box78_4.isChecked() && !ok) {
-                    sum8 += 4;
+                    sum8 += 2;
                     Log.i("Check3", "4");
                     ok = true;
                 }
                 if (box78_5.isChecked() && !ok) {
-                    sum8 += 5;
+                    sum8 += 1;
                     Log.i("Check3", "5");
                     ok = true;
                 }
                 avg8 = sum8 / 5;
 
-                String message = "Masura globala a capacitatii creative: " + avg1
-                        + "\nCredinta in importanta proceselor inconstiente: " + avg2
-                        + "\nUtilizarea de tehnici: " + avg3
-                        + "\nActivitatea cu alte persoane (echipa): " + avg4
-                        + "\nOrientarea catre produsul final: " + avg5
-                        + "\nControlul comportamentului si al mediului: " + avg6
-                        + "\nMistica: " + avg7
-                        + "\nUtilizarea simturilor: " + avg8;
+                DecimalFormat ft = new DecimalFormat("#.##");
+
+                String message = "Masura globala a capacitatii creative: " + ft.format(avg1).replaceAll(",", ".")
+                        + "\nCredinta in importanta proceselor inconstiente: " + ft.format(avg2).replaceAll(",", ".")
+                        + "\nUtilizarea de tehnici: " + ft.format(avg3).replaceAll(",", ".")
+                        + "\nActivitatea cu alte persoane (echipa): " + ft.format(avg4).replaceAll(",", ".")
+                        + "\nOrientarea catre produsul final: " + ft.format(avg5).replaceAll(",", ".")
+                        + "\nControlul comportamentului si al mediului: " + ft.format(avg6).replaceAll(",", ".")
+                        + "\nMistica: " + ft.format(avg7).replaceAll(",", ".")
+                        + "\nUtilizarea simturilor: " + ft.format(avg8).replaceAll(",", ".");
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setData(Uri.parse("mailto:")); // only email apps should handle this
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Cercetare test CSQ");

@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="      Chestionarul CSQ se ocupă de modul în care oamenii desăvârşesc un act creativ. Termenul creativ este utilizat în sensul realizării oricărui lucru într-un mod nou, de la rezolvarea de probleme zilnice la implicarea în activităţi ştiinţifice, cercetări, scrieri, compoziţii plastice, muzicale etc. Scopul chestionarului este de a vedea stilul propriu al fiecăruia într-o muncă de creaţie. Un număr de afirmaţii listate mai jos reflectă diferite căi pe care le utilizează cineva pentru a fi creativ. Vă rugăm să decideţi, cum raportaţi fiecare informaţie în cazul dvs. utilizând o scală în 5 trepte. Se va răspunde la întrebări în următorul fel, apăsând pe un singur checkbox:"
+            android:text="@string/app_info"
             android:textSize="16sp" />
     <TextView
         android:layout_width="match_parent"
